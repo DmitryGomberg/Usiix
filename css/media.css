@@ -113,9 +113,15 @@
       top: 382px;
       right: 50%;
       transform: translateX(50%);
-      min-width: 340px;
+      min-width: 275px;
    }
    .s1 {
       padding: 0;
+   }
+}
+
+@media (max-width: 320px){
+   .s1__but {
+      padding: 18px 20px;
    }
 }
