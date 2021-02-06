@@ -335,7 +335,7 @@ body{
    padding: 10px;
    position: relative;
 }
-.s1__title {
+.main-title {
    font-family: Roboto;
    font-weight: bold;
    font-size: 43px;
@@ -402,4 +402,77 @@ body{
    position: absolute;
    left: 400px;
    bottom: 0;
+}
+
+.s2 {
+   width: 100%;
+   padding: 135px 0;
+   text-align: center;
+}
+.s2__container{
+   max-width: 1375px;
+   padding: 10px;
+   margin: 0 auto;
+}
+.s2__wrap{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   background-image: url(../images/s2-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+   text-align: left;
+}
+
+.s2__title {
+   width: 100%;
+   text-align: center;
+   font-size: 38px;
+   line-height: 45px;
+   margin-bottom: 60px;
+}
+.s2__col-1 {
+   flex: 0 1 350px;
+}
+.s2__item {
+   
+}
+.s2__item-name {
+   margin: 25px 0;
+   font-family: Roboto;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 35px;
+   text-transform: uppercase;
+   color: #0065B1;
+}
+.s2__item-text {
+   font-family: MontR;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 28px;
+   color: #333333;
+}
+.s2__col-2 {
+   flex: 0 1 350px;
+}
+.s2__button {
+   background: #FFFFFF;
+   border: 2px solid #C82625;
+   border-radius: 53px;
+   padding: 26px 40px;
+   display: inline-block;
+   font-family: Montserrat;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20px;
+   text-transform: uppercase;
+   color: #C82625;
+   transition: all .2s ease;
+   margin-top: 90px;
+}
+.s2__button:hover {
+   background: #C82625;
+   color: #fff;
 }
