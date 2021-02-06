@@ -10,7 +10,7 @@ body{
 
 .header {
    width: 100%;
-   z-index: 3;
+   z-index: 9;
    position: fixed;
    height: 116px;
    left: 0px;
@@ -497,7 +497,7 @@ body{
    background-color: rgba(0, 101, 177, 0.78);
 }
 .s3__container {
-   z-index: 5000;
+   z-index: 5;
    position: relative;
    text-align: center;
    padding: 95px 0;
