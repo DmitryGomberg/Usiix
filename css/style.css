@@ -253,7 +253,7 @@ body{
    background-color: #fff;
    max-width: 567px;
    color: #333333;
-   padding: 37px 0;
+   padding: 37px 12px;
    width: 100%;
    text-align: center;
    position: relative;
@@ -279,7 +279,8 @@ body{
    background: #FFFFFF;
    border: 1px solid rgba(0, 0, 0, 0.05);
    border-radius: 10px;
-   width: 356px;
+   width: 100%;
+   max-width: 356px;
    padding: 15px 20px;
    box-shadow: 0px 7px 20px #0000001a;
    margin-bottom: 15px;
