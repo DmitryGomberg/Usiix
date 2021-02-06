@@ -1,0 +1,40 @@
+@media (max-width: 1354px) {
+   .header__contact {
+      margin-right: 5px;
+   }
+
+   .header__logo {
+      margin-right: 10px;
+
+   }
+
+   .header__logo>img {
+      width: 200px;
+   }
+
+}
+
+@media (max-width: 1250px) {
+   .menu__burger {
+      display: block;
+   }
+
+   .menu,
+   .phone,
+   .header__button {
+      display: none;
+   }
+
+   .call-icon {
+      display: block;
+      padding-right: 68px;
+   }
+
+   /* .menu__open{
+      display: block;
+   } */
+   
+   .header {
+      height: 93px;
+   }
+}

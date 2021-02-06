@@ -4,11 +4,14 @@
    box-sizing: border-box;
    text-decoration: none;
 }
+body{
+   position: relative;
+}
 
 .header {
    width: 100%;
    position: fixed;
-   height: 100px;
+   height: 116px;
    left: 0px;
    top: 0px;
    background: #FFFFFF;
@@ -16,11 +19,13 @@
 }
 .header__container {
    margin: 0 auto;
-   max-width: 1440px;
+   max-width: 1460px;
    padding: 0 10px;
    display: flex;
+   justify-content: space-between;
    align-items: center;
    height: 100%;
+   position: relative;
 }
 .header__logo {
    margin-right: 70px;
@@ -32,11 +37,15 @@
 .menu__item{
    font-family: Roboto;
    font-weight: bold;
-   font-size: 24px;
+   font-size: 22px;
    line-height: 28px;
    color: #333333;
    margin-right: 50px;
    text-decoration: none;
+   transition: all .2s ease;
+}
+.menu__item:hover{
+   color: #0065B1;
 }
 .header__contact {
    display: flex;
@@ -72,4 +81,63 @@
    border: 2px solid #C82625;
    border-radius: 53px;
    white-space: nowrap;
+   cursor: pointer;
+   transition: all .2s ease;
+}
+.header__button:hover {
+   background: #C82625;
+   color: #fff;
+}
+.menu__burger {
+   position: absolute;
+   display: none;
+   width: 39px;
+   height: 39px;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 22px;
+   cursor: pointer;
+}
+.menu__burger span{
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   height: 3px;
+   border-radius: 1px;
+   background: #0065B1;
+}
+.menu__burger span::before,
+.menu__burger span::after{
+   content: "";
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 3px;
+   border-radius: 1px;
+   background: #0065B1;
+}
+.menu__burger span::before{
+   top: -12px;
+}
+.menu__burger span::after{
+   bottom: -12px;
+}
+.call-icon{
+   display: none;
+}
+.menu__open{
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.7);
+   display: block;
+   z-index: 100;
+}
+.menu__open-content{
+   position: absolute;
+   background-color: #F5F5F5;
+   width: 100%;
+   min-height: 300px;
 }
