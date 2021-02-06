@@ -1,39 +1,118 @@
 @media (max-width: 1354px) {
-   .header__contact {
-      margin-right: 5px;
+   .s1{
+      padding-top: 20px;
    }
-
-   .header__logo {
-      margin-right: 10px;
-
-   }
-
-   .header__logo>img {
-      width: 200px;
-   }
-
 }
 
 @media (max-width: 1250px) {
    .menu__burger {
       display: block;
    }
-
+   .menu,
    .phone,
    .header__button {
       display: none;
    }
-
+   .header__logo>img{
+      max-width: 164px;
+   }
    .call-icon {
       display: block;
       padding-right: 68px;
    }
-
+   .s1 {
+      margin-top: 93px;
+   }
    /* .menu__open{
       display: block;
    } */
    
    .header {
       height: 93px;
+   }
+   .s1__subtitle{
+      max-width: 500px;
+   }
+   .step2{
+      margin-left: 20px;
+   }
+   .header__logo{
+      margin: 0;
+   }
+}
+@media (max-width: 1008px) {
+   .s1__steps{
+      margin-top: 350px;
+   }
+   .s1 {
+      background-image: url(../images/s1-bg-small.jpg);
+      background-size: contain;
+      background-position: 100% 30%;
+      padding: 50px 0;
+   }
+   .special{
+      left: 10px;
+      bottom: 300px;
+   }
+}
+@media (max-width: 920px) {
+   .s1__title {
+      font-size: 30px;
+      line-height: 33px;
+   }
+   .s1__subtitle{
+      font-size: 18px;
+      line-height: 24px;
+   }
+   .s1__steps{
+      margin-top: 450px;
+   }
+   .special{
+      bottom: 400px;
+   }
+   .s1__subtitle {
+      max-width: 375px;
+  }
+}
+
+@media (max-width: 687px) {
+   .s1__subtitle {
+      max-width: 300px;
+  }
+}
+
+@media (max-width: 530px) {
+   .s1__steps{
+      flex-direction: column;
+      margin-top: 419px;
+   }
+   .step{
+      max-width: 100%;
+   }
+   .special{
+      bottom: 329px;
+   }
+   .step2{
+      margin: 0; 
+      margin-top: 20px;   
+   }
+   .step{
+      font-size: 18px;
+      line-height: 23px;
+   }
+   .s1__subtitle{
+      position: absolute;
+      top: 661px;
+      max-width: 375px;
+   }
+   .s1__but{
+      position: absolute;
+      top: 382px;
+      right: 50%;
+      transform: translateX(50%);
+      min-width: 340px;
+   }
+   .s1 {
+      padding: 0;
    }
 }
