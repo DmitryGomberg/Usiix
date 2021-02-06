@@ -409,7 +409,8 @@ body{
    padding: 135px 0;
    text-align: center;
 }
-.s2__container{
+.s2__container,
+.s3__container{
    max-width: 1375px;
    padding: 10px;
    margin: 0 auto;
@@ -475,4 +476,63 @@ body{
 .s2__button:hover {
    background: #C82625;
    color: #fff;
+}
+
+.s3 {
+   width: 100%;
+   position: relative;
+   background-image: url(../images/s3-bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   padding: 0 10px;
+}
+._lay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 101, 177, 0.78);
+}
+.s3__container {
+   z-index: 5000;
+   position: relative;
+   text-align: center;
+   padding: 95px 0;
+}
+.s3__title {
+   color: #fff;
+   font-family: Roboto;
+   font-weight: bold;
+   font-size: 60px;
+   line-height: 70px;
+   margin-bottom: 83px;
+}
+.s3__wrap {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.s3__item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.s3__item-title {
+   font-family: Montserrat;
+   font-weight: bold;
+   font-size: 90px;
+   line-height: 110px;
+   color: #FFFFFF;
+   text-shadow: 12px 12px 20px rgba(0, 0, 0, 0.5);
+}
+.s3__item-text {
+   font-family: MontR;
+   font-size: 26px;
+   line-height: 30px;
+   color: #FFFFFF;
+   max-width: 195px;
 }
