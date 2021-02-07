@@ -242,6 +242,9 @@
    }
 }
 @media (max-width: 542px) {
+   .form__content{
+      padding: 0;
+   }
    .s4__title{
       font-size: 26px;
       line-height: 33px;
@@ -341,6 +344,9 @@
    .s3__item-text {
       font-size: 18px;
       line-height: 30px;
+   }
+   .s5__form{
+      padding: 3px;
    }
 }
 
