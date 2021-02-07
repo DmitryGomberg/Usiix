@@ -184,6 +184,30 @@
    .s4__phone{
     top: 180px;
    }
+   .image__sell{
+      display: none;
+   }
+   .form__title:after{
+      content: "Первый месяц - 50% скидка!";
+      position: absolute;
+      bottom: -20px;
+      right: 50%;
+      width: 100%;
+      font-family: MontR;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #950000;
+      transform: translateX(50%);
+   }
+   .s5__form{
+      border: 0px;
+      padding: 10px;
+   }
+   .form__content{
+      margin: 0 auto;
+   }
 }
 @media (max-width: 687px) {
    .s1__subtitle {
