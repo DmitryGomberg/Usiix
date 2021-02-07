@@ -98,6 +98,12 @@
    .s2__wrap {
       background-size: 30%;
    }
+
+   .swiper-button-prev,
+   .swiper-button-next{
+      display: none;
+   }
+
 }
 
 @media (max-width: 1008px) {
@@ -240,6 +246,10 @@
       font-size: 18px;
       line-height: 23px;
    }
+
+   .s6__swiper-slide {
+      height: 468px;
+  }
 }
 @media (max-width: 542px) {
    .form__content{
@@ -267,6 +277,9 @@
    .s4__item{
       text-align: left;
    }
+   .s6__swiper-slide {
+      height: 367px;
+  }
 }
 @media (max-width: 530px) {
    .s1__steps {
@@ -347,7 +360,33 @@
    }
    .s5__form{
       padding: 3px;
+      margin-bottom: 70px;
    }
+
+   .s6__swiper-slide {
+      height: 306px;
+   }
+   .s2__button{
+      margin-bottom: 60px;
+      margin-top: 52px;
+   }
+
+   .s6__title{
+      font-size: 26px;
+      line-height: 33px; 
+      margin-bottom: 32px;
+   }
+   .s6 {
+      padding: 60px 20px;
+      padding-bottom: 80px;
+   }
+   .swiper-pagination{
+      bottom: -20px;
+   }
+   .swiper-pagination-bullet{
+      width: 8px;
+      height: 8px;
+   } 
 }
 
 @media (max-width: 320px) {

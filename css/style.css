@@ -486,6 +486,7 @@ body{
    background-size: cover;
    background-repeat: no-repeat;
    position: relative;
+   overflow: hidden;
    padding: 0 10px;
 }
 ._lay{
@@ -520,6 +521,18 @@ body{
    display: flex;
    flex-direction: column;
    align-items: center;
+   position: relative;
+}
+.s3__item::after{
+   position: absolute;
+   content: url(../images/капли.png);
+   width: 100%;
+   top: 50%;
+   right: 50%;
+   transform: translate(50%, -50%);
+}
+._odd::after{
+   transform: translate(50%, -50%)  rotate(150deg);
 }
 .s3__item-title {
    font-family: Montserrat;
@@ -634,6 +647,7 @@ body{
    border-radius: 28px;
    padding: 0 100px;
    max-height: 336px;
+   margin-bottom: 140px;
 }
 
 .s5__form-wrap{
@@ -671,9 +685,6 @@ body{
    font-weight: 500;
    font-size: 20px;
    color: #B2BCC3;
-
-}
-.popup__but {
 }
 .image__sell {
    min-height: 100%;
@@ -684,4 +695,125 @@ body{
 }
 .image__sell>img {
    height: 72%;
+}
+.s6 {
+   position: relative;
+   background-image: url(../images/Mask\ Group.jpg);
+   padding: 135px 20px;
+}
+.s6__title{
+   text-align: center;
+   width: 100%;
+   font-family: MontB;
+   font-size: 38px;
+   line-height: 49px;
+   color: #FFFFFF;
+   position: relative;
+   z-index: 10;
+   text-transform: uppercase;
+   margin-bottom: 70px;
+   font-family: MontB;
+   font-size: 38px;
+   line-height: 49px;
+   color: #FFFFFF;
+}
+.swiper-pagination{
+   width: 100%;
+   bottom: -62px;
+}
+.swiper-pagination>span{
+   margin-right: 20px;
+}
+.swiper-pagination>span:last-child{
+   margin-right: 0;
+}
+.swiper-pagination-bullet{
+   width: 20px;
+   height: 20px;
+   border: 1px solid #FFFFFF;
+   background-color: transparent;
+   opacity: 1;
+} 
+.swiper-pagination-bullet-active{
+   background-color: #fff;
+}
+.s6__swiper-slide{
+   width: 100%;
+   text-align: center;
+   height: 555px;
+   border-radius: 15px;
+}
+.s6__swiper-slide>img{
+   width: 100%;
+   object-fit: cover;
+   position: absolute;
+   top: 0;
+   transform: translateX(-50%);
+   left: 50%;
+}
+.s6__swiper-container {
+   
+}
+.s6__swiper-wrapper {
+}
+.s6__swiper-slide {
+   text-align: center;
+}
+.s6__swiper-slide>img{
+   border-radius: 15px;
+}
+.swiper-button-disabled{
+   opacity: 1!important;
+   cursor: pointer!important;
+   pointer-events: all!important;
+   
+}
+.swiper-button-prev {
+   left: -170px;
+   width: 100px;
+   height: 100px;
+   background-color: transparent;
+   border-radius: 50%;
+   border: 1px solid #FFFFFF;
+   background-image: url(../images/Vector\ 1.png);
+   background-position: center;
+   background-size: auto;
+   background-repeat: no-repeat;
+   z-index: 11;
+   transition: all .2s ease;
+}
+.swiper-button-prev:hover {
+   background-color: #fff;
+   background-image: url(../images/Vector\ 1\ \(active\).png);
+}
+.s6__slider-wins{
+   max-width: 765px;
+   margin: 0 auto;
+   position: relative;
+}
+.swiper-button-next {
+   right: -170px;
+   width: 100px;
+   height: 100px;
+   background-color: transparent;
+   border-radius: 50%;
+   border: 1px solid #FFFFFF;
+   background-image: url(../images/Vector\ 1.png);
+   transform: scale(-1, 1);
+   background-position: center;
+   background-size: auto;
+   background-repeat: no-repeat;
+   z-index: 11;
+   transition: all .2s ease;
+}
+.swiper-button-next:hover {
+   background-color: #fff;
+   background-image: url(../images/Vector\ 1\ \(active\).png);
+   transform: scale(-1, 1);
+}
+.swiper-button-prev::after {
+   display: none;
+}
+.swiper-button-next::after {
+   display: none;
 }
