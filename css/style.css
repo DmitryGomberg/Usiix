@@ -536,3 +536,68 @@ body{
    color: #FFFFFF;
    max-width: 195px;
 }
+
+.s4 {
+   width: 100%;
+   padding: 140px 120px;
+   background-image: url(../images/PHONE.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;  
+   position: relative;
+}
+.s4__title {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 130px;
+}
+.s4__col{
+   max-width: 550px;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   min-height: 1000px;
+}
+.s4__col-wrap{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+._right{
+   margin-left: auto;
+}
+._left{
+   margin-right: auto;
+}
+.s4__col1 {
+
+}
+.s4__item {
+   max-width: 395px;
+   text-align: center;
+}
+.s4__item-title {
+   font-family: Roboto;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 35px;
+   text-transform: uppercase;
+   color: #0065B1;
+}
+.s4__item-text {
+   font-family: MontR;
+   font-size: 22px;
+   line-height: 28px;
+   text-align: center;
+   color: #000000;
+}
+.s4__col2 {
+}
+.s4__phone{
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   transform: translate(50%, -50%);
+}
