@@ -601,3 +601,23 @@ body{
    right: 50%;
    transform: translate(50%, -50%);
 }
+.s4__phone::before{
+   content: "Звоните";
+   position: absolute;
+   top: -150px;
+   right: -91px;
+   font-family: MisteryDi;
+   font-size: 70px;
+   line-height: 70px;
+   text-align: center;
+   text-transform: lowercase;
+   color: #FF834F;
+   transform: rotate(-10.64deg);
+}
+.s4__phone::after{
+   content: url(../images/стрелка.png);
+   position: absolute;
+   top: -110px;
+   right: 17px;
+   z-index: -1;
+}
