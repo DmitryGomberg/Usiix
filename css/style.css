@@ -1091,3 +1091,87 @@ body {
    /* right: -116px; */
    margin-right: 30px;
 }
+
+.s9 {
+   width: 100%;
+   background-color: #fff;
+   padding: 135px 0 100px 0;
+   background-image: url(../images/s9-bg-fon.png);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+   background-size: auto;
+}
+.s9__title-top {
+   width: 100%;
+   text-align: center;
+}
+.s9__content {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   max-width: 1355px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 23px;
+}
+.s9__image {
+}
+.s9__form {
+   padding: 70px 100px;
+   background: #FFFFFF;
+   border: 1px solid #EEF2F9;
+   box-shadow: -5px -15px 70px rgba(255, 255, 255, 0.35), 5px 15px 70px rgba(0, 101, 177, 0.2);
+   border-radius: 23px;
+   min-width: 616px;
+   position: relative;
+   z-index: 3;
+   transform: translateY(16%);
+}
+.s9__form-title {
+   font-family: Roboto;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 47px;
+   color: #333333; 
+   width: 100%;
+   text-align: center;
+}
+.s9__form-subtitle {
+   max-width: 230px;
+   font-family: MontR;
+   font-size: 20px;
+   line-height: 25px;
+   margin: 0 auto;
+   margin-bottom: 53px;
+}
+.s9__form-text {
+   font-family: MontR;
+   font-size: 20px;
+   line-height: 23px;
+   color: #333333; 
+   margin-bottom: 14px;
+}
+.s9__form-input {
+   font-family: MontR;
+   font-size: 20px;
+   letter-spacing: 0.13em;
+   color: #B2BCC3; 
+   border: none;
+   border-bottom: 2px solid #BBC6CE;
+   height: 40px;
+   padding: 0 3px;
+   margin-bottom: 21px;
+}
+
+.s9__form-textarea{
+   min-height: 54px;
+   resize: none;
+}
+.s9__send{
+   width: 100%;
+   text-align: center;
+}
+
+.s9__send-button{
+   min-width: 335px;
+}
