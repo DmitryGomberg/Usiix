@@ -1267,7 +1267,7 @@ body {
    position: fixed;
    right: 30px;
    bottom: 30px;
-   background-color: transparent;
+   background-color: #fff;
    border-radius: 50%;
    background-image: url(../images/top__arrow.png);
    background-repeat: no-repeat;
@@ -1276,9 +1276,4 @@ body {
    z-index: 11;
    border: 1px solid #BCC4CB;
    transition: all .3s ease;
-}
-
-.back-to-top:hover{
-   background-color: #fff;
-   border: 1px solid #fff;
 }
