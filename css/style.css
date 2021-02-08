@@ -1260,3 +1260,25 @@ body {
    color: #FFFFFF;
    margin-left: 7px;
 }
+
+.back-to-top{
+   width: 80px;
+   height: 80px;
+   position: fixed;
+   right: 30px;
+   bottom: 30px;
+   background-color: transparent;
+   border-radius: 50%;
+   background-image: url(../images/top__arrow.png);
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center;
+   z-index: 11;
+   border: 1px solid #BCC4CB;
+   transition: all .3s ease;
+}
+
+.back-to-top:hover{
+   background-color: #fff;
+   border: 1px solid #fff;
+}
