@@ -224,7 +224,7 @@
    }
 
    .s10 {
-      height: 247px;
+      height: 337px;
    }
    .s10__content{
       padding: 65px 20px;
@@ -246,6 +246,12 @@
    .s10__gmail {
       font-size: 18px;
       line-height: 23px; 
+   }
+
+   .footer{
+      background: #4080b1;
+      position: absolute;
+      bottom: -555px;
    }
    
 }

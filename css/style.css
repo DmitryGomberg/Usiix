@@ -244,10 +244,6 @@ body {
    top: 220px;
 }
 
-.menu__open-link1 {}
-
-.menu__open-link2 {}
-
 .menu__open-close {
    position: absolute;
    top: 36px;
@@ -409,8 +405,6 @@ body {
    align-items: flex-start;
 }
 
-.step1 {}
-
 .step2 {
    margin-left: 135px;
 }
@@ -494,8 +488,6 @@ body {
 .s2__col-1 {
    flex: 0 1 350px;
 }
-
-.s2__item {}
 
 .s2__item-name {
    margin: 25px 0;
@@ -661,8 +653,6 @@ body {
    margin-right: auto;
 }
 
-.s4__col1 {}
-
 .s4__item {
    max-width: 395px;
    text-align: center;
@@ -685,7 +675,6 @@ body {
    color: #000000;
 }
 
-.s4__col2 {}
 
 .s4__phone {
    position: absolute;
@@ -847,10 +836,6 @@ body {
    left: 50%;
 }
 
-.s6__swiper-container {}
-
-.s6__swiper-wrapper {}
-
 .s6__swiper-slide {
    text-align: center;
 }
@@ -963,8 +948,6 @@ body {
    padding: 0 10px;
 }
 
-.s7__content {}
-
 .s7__item {
    max-width: 360px;
    margin-bottom: 35px;
@@ -1057,8 +1040,7 @@ body {
    padding-left: 40px;
 }
 
-.s8__col2 {
-}
+
 .company__name {
    font-family: MontB;
    font-size: 36px;
@@ -1113,8 +1095,6 @@ body {
    width: 100%;
    margin: 0 auto;
    padding: 0 23px;
-}
-.s9__image {
 }
 .s9__form {
    padding: 70px 100px;
@@ -1240,9 +1220,7 @@ body {
    margin-bottom: 60px;
 }
 .s10__gmail {
-   font-family: Mont;
-   font-style: normal;
-   font-weight: bold;
+   font-family: MontB;
    font-size: 24px;
    line-height: 31px;
    color: #FFFFFF;
@@ -1263,7 +1241,22 @@ body {
    justify-content: space-between;
    align-items: center;
 }
-.s10_link1 {
+.footer {
+   width: 100%;
+   background: #4080b1;
 }
-.s10_link2 {
+.footer__container {
+   max-width: 1640px;
+   padding: 33px 23px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+.footer__text {
+   font-family: Roboto;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 23px;
+   color: #FFFFFF;
+   margin-left: 7px;
 }
