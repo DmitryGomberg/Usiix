@@ -59,6 +59,9 @@
    .s9__image>img{
       max-width: 90%;
    }
+   .s9__form{
+      transform: translateY(0);
+   }
 }
 
 @media (max-width: 1250px) {
@@ -212,6 +215,39 @@
       padding-top: 380px;
    }
 
+   .s10__content{
+      max-width: 100%;
+      padding: 70px 80px;
+      position: relative;
+      top: 0;
+      left: 0;
+   }
+
+   .s10 {
+      height: 247px;
+   }
+   .s10__content{
+      padding: 65px 20px;
+      min-height: 550px;
+   }
+
+   .s10__title {
+      font-size: 26px;
+      line-height: 33px; 
+   }
+   .s10__place {
+      font-size: 18px;
+      line-height: 20px; 
+   }
+   .s10__phone {
+      font-size: 18px;
+      line-height: 23px; 
+   }
+   .s10__gmail {
+      font-size: 18px;
+      line-height: 23px; 
+   }
+   
 }
 @media (max-width: 858px) {
    .s4__col-wrap {
