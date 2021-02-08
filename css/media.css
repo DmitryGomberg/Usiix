@@ -52,6 +52,10 @@
    .s7{
       background-size: 35%;
    }
+   .s8__swiper-button-next,
+   .s8__swiper-button-prev{
+      display: none;
+   }
 }
 
 @media (max-width: 1250px) {
@@ -154,6 +158,10 @@
       background-size: 50%;
       background-position: right;
    }
+
+   .s8__col1>img{
+      width: 88px;
+   }
 }
 
 @media (max-width: 920px) {
@@ -233,6 +241,13 @@
    }
    .form__content{
       margin: 0 auto;
+   }
+   .s8__slide{
+      padding: 20px;
+   }
+   .s8__col1{
+      padding: 0;
+      margin-right: 20px;
    }
 }
 @media (max-width: 687px) {
@@ -321,6 +336,7 @@
    .s6__swiper-slide {
       height: 367px;
   }
+  
 }
 @media (max-width: 530px) {
    .s1__steps {
@@ -368,6 +384,11 @@
    .s1 {
       padding: 0;
    }
+
+   .s8__col1>img{
+      width: 37px;
+   }
+   
 }
 
 @media (max-width: 464px) {
@@ -412,7 +433,8 @@
       margin-top: 52px;
    }
 
-   .s6__title{
+   .s6__title,
+   .s8__title{
       font-size: 26px;
       line-height: 33px; 
       margin-bottom: 32px;
@@ -429,6 +451,38 @@
       width: 8px;
       height: 8px;
    } 
+   .s8__col2>img{
+      max-height: 30px;
+   }
+ 
+   .company__name{
+    font-size: 14px;
+    line-height: 46px; 
+   }
+ 
+   .author{
+    font-size: 10px;
+    line-height: 11px;
+   }
+ 
+   .company__text{
+    font-size: 8px;
+    line-height: 12px;
+   }
+   .s8__slide {
+       min-height: 250px;
+   }
+   .s8 {
+      position: relative;
+      padding: 65px 20px;
+   }
+
+   .company__name{
+      margin: 0;
+   }
+   .author{
+      margin: 5px 0;
+   }
 }
 
 @media (max-width: 320px) {
