@@ -732,7 +732,7 @@ body {
 }
 
 .s5__form-wrap {
-   min-width: 370px;
+   min-width: 320px;
    min-height: 390px;
    display: flex;
    margin-top: -10px;
@@ -745,7 +745,7 @@ body {
    background-color: #fff;
    padding: 0 40px;
    align-items: center;
-   min-width: 370px;
+   min-width: 320px;
 }
 
 .form__title {
