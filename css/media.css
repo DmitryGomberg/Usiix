@@ -14,6 +14,15 @@
    }
 }
 
+@media (max-width:1344px){
+   .header__logo {
+      margin-right: 28px;
+   }
+   .menu__item {
+      margin-right: 32px;
+   }
+}
+
 @media (max-width: 1299px) {
    .s4__phone{
       position: absolute;
@@ -54,7 +63,14 @@
    }
    .s8__swiper-button-next,
    .s8__swiper-button-prev{
-      display: none;
+      width: 70px;
+      height: 70px;
+   }
+   .swiper-button-next {
+      right: -108px;
+   }
+   .swiper-button-prev {
+      left: -108px;
    }
    .s9__image>img{
       max-width: 90%;
