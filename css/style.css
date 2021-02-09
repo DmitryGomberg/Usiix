@@ -765,11 +765,13 @@ body {
    width: 100%;
    display: flex;
    justify-content: flex-end;
-   align-items: center;
+   align-items: flex-start;
+   padding-top: 20px;
 }
 
 .image__sell>img {
-   width: 328px;
+   width: 317px;
+   height: 317px;
 }
 
 .s6 {
