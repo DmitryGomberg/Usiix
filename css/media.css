@@ -346,10 +346,11 @@
       top: 205px;
    }
 
-   .image__sell {
+   .image__sell,
+   .image__sell>img {
       display: none;
    }
-
+   
    .form__title:after {
       content: "Первый месяц - 50% скидка!";
       position: absolute;
