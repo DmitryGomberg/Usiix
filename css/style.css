@@ -373,7 +373,7 @@ body {
 .s1__container {
    margin: 0 auto;
    max-width: 1375px;
-   padding: 10px;
+   padding: 33px;
    position: relative;
 }
 
@@ -465,7 +465,10 @@ body {
    padding: 10px;
    margin: 0 auto;
 }
-
+.s2__container{
+   padding-right: 50px;
+   padding-left: 50px;
+}
 .s2__wrap {
    display: flex;
    justify-content: space-between;
@@ -718,6 +721,7 @@ body {
    padding: 0 100px;
    max-height: 336px;
    margin-bottom: 140px;
+   position: relative;
 }
 
 .s5__form-wrap {
@@ -761,12 +765,10 @@ body {
 }
 
 .image__sell {
-   min-height: 100%;
-   width: 100%;
-   display: flex;
-   justify-content: flex-end;
-   align-items: flex-start;
-   padding-top: 20px;
+   position: absolute;
+   right: 100px;
+   top: 0;
+   height: 100%;
 }
 
 .image__sell>img {
