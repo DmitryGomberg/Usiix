@@ -58,6 +58,7 @@
       right: 50%;
       transform: translateX(50%);
    }
+
 }
 
 
@@ -456,6 +457,11 @@
    .s1__container {
       padding: 20px;
    }
+   .back-to-top{
+      width: 45px;
+      height: 45px;
+      background-size: 65%;
+   }
 }
 
 @media (max-width: 542px) {
@@ -512,6 +518,11 @@
    .s1__steps {
       flex-direction: column;
       margin-top: 419px;
+   }
+
+   .s5__form-wrap,
+   .form__content {
+      min-width: 228px;
    }
 
    .s2__wrap {

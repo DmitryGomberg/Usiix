@@ -618,12 +618,17 @@ body {
 
 .s4 {
    width: 100%;
-   padding: 140px 120px;
-   background-image: url(../images/PHONE.jpg);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: auto;
    position: relative;
+   padding-top: 140px;
+   padding-bottom: 140px;
+}
+
+.s4__animate{
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   transform: translate(50%, -50%);
+   z-index: -1;
 }
 
 .s4__title {
@@ -1140,6 +1145,7 @@ body {
 }
 .s9__form-input {
    font-family: MontR;
+   width: 100%;
    font-size: 20px;
    letter-spacing: 0.13em;
    color: #B2BCC3; 
