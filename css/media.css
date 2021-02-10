@@ -39,7 +39,7 @@
    }
 
    .s4__title {
-      margin-bottom: 354px;
+      margin-bottom: 392px;
    }
 
    .s4__col {
@@ -307,7 +307,12 @@
    }
 
 }
-
+@media(max-width: 960px){
+   .s4__title {
+      font-size: 26px;
+      line-height: 33px;
+   }
+}
 @media (max-width: 858px) {
    .s4__col-wrap {
       flex-direction: column;
@@ -331,13 +336,8 @@
       padding-top: 50px;
    }
 
-   .s4__title {
-      font-size: 26px;
-      line-height: 33px;
-   }
-
    .s4__phone {
-      top: 180px;
+      top: 205px;
    }
 
    .image__sell {
@@ -483,10 +483,18 @@
    .s6__swiper-slide {
       height: 367px;
    }
-
+   .s4__title {
+      margin-bottom: 345px;
+   }
 
 }
-
+@media(max-width: 580px){
+   .s3__wrap {
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+}
 @media (max-width: 530px) {
    .s1__steps {
       flex-direction: column;
