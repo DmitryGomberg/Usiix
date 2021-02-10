@@ -707,9 +707,12 @@ body {
    right: 17px;
    z-index: -1;
 }
-
-.s5__form {
+.s5{
    width: 100%;
+   padding: 0 30px;
+}
+.s5__form {
+   width: 91%;
    padding: 20px;
    padding-bottom: 176px;
    max-width: 1114px;
@@ -1199,6 +1202,7 @@ body {
    font-family: MontR;
    font-size: 24px;
    line-height: 31px;
+   min-height: 30px;
    color: #FFFFFF;
    background-image: url(../images/Icon\ Geo.png);
    background-repeat: no-repeat;

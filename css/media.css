@@ -155,6 +155,17 @@
       background-position: top;
       background-size: 50%;
    }
+   .image__sell {
+      position: absolute;
+      right: 30px;
+      top: 0;
+      text-align: right;
+      
+   }
+   .image__sell>img{
+      height: 70%;
+      width: 70%;
+   }
 }
 @media (max-width: 1008px) {
    .s1__steps {
@@ -269,7 +280,7 @@
    }
 
    .s10__content {
-      padding: 65px 20px;
+      padding: 65px 40px;
       min-height: 550px;
    }
 
@@ -299,12 +310,7 @@
       bottom: -555px;
    }
 
-   .image__sell {
-      position: absolute;
-      right: 40px;
-      top: 0;
-      height: 100%;
-   }
+   
 
 }
 @media(max-width: 960px){
@@ -485,6 +491,9 @@
    }
    .s4__title {
       margin-bottom: 345px;
+   }
+   .s10__content {
+      padding: 65px 20px;
    }
 
 }
