@@ -625,7 +625,11 @@
       padding-left: 22px;
    }
 }
-
+@media(max-width:480px){
+   .s4__animate > img {
+      max-width: 350px;
+  }
+}
 @media (max-width: 464px) {
    .s3__wrap {
       justify-content: center;
