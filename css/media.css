@@ -91,6 +91,9 @@
    .s9__form {
       transform: translateY(0);
    }
+   .s1__subtitle {
+      max-width: 754px;
+   }
 }
 
 @media(max-width: 1310px){
@@ -350,7 +353,7 @@
    .image__sell>img {
       display: none;
    }
-   
+
    .form__title:after {
       content: "Первый месяц - 50% скидка!";
       position: absolute;
