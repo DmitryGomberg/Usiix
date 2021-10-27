@@ -1,4 +1,8 @@
+
+
 $(document).ready(function(){
+
+   $('.swiper-container').addClass('swiper');
    $('.menu__open-close, .menu__burger').click(function(event){
        $('.menu__open').toggleClass('active');
    });
